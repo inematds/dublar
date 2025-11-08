@@ -1,0 +1,24 @@
+# Dependências do Pipeline de Dublagem v2.0
+
+# Core ML/AI
+torch>=2.0.0
+transformers>=4.30.0
+faster-whisper>=0.9.0
+
+# Dependências do Transformers/M2M100
+sentencepiece>=0.1.99
+protobuf>=3.20.0
+sacremoses>=0.0.53
+
+# TTS Engines
+bark>=0.1.0
+TTS>=0.22.0
+
+# Processamento de Áudio
+scipy>=1.10.0
+numpy>=1.24.0
+librosa>=0.10.0  # Para VAD (Voice Activity Detection)
+soundfile>=0.12.0
+
+# Utilitários
+Pillow>=10.0.0

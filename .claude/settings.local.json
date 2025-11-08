@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(nvidia-smi:*)",
+      "Bash(nvcc:*)",
+      "Bash(python:*)",
+      "Bash(pip uninstall:*)",
+      "Bash(pip install:*)",
+      "Bash(where python)",
+      "Bash(ffprobe:*)",
+      "Bash(cat:*)",
+      "Bash(for f in dub_work/seg_0001*.wav)",
+      "Bash(done)",
+      "Bash(dublar:*)",
+      "Bash(cmd /c:*)",
+      "Bash(ffmpeg:*)",
+      "Bash(findstr:*)",
+      "Bash(for file in dub_work/seg_0001.wav dub_work/seg_0002.wav dub_work/seg_0003.wav dub_work/seg_0004.wav dub_work/seg_0005.wav)",
+      "Bash(do echo \"$file:\")",
+      "Bash(for file in dub_work/seg_0001_xf_fit.wav dub_work/seg_0002_xf_fit.wav dub_work/seg_0003_xf_fit.wav)",
+      "Bash(dir:*)",
+      "Bash(git init:*)",
+      "Bash(git config:*)",
+      "Bash(git remote:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
